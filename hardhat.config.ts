@@ -184,6 +184,7 @@ const config: HardhatUserConfig = {
               : undefined,
           }
         : undefined,
+      blockGasLimit: 12400000,
     },
     localhost: {
       url: 'http://localhost:8545',
